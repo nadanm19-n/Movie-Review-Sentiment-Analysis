@@ -125,7 +125,7 @@ print(classification_report(y_test, y_pred))
 
 # Print confusion matrix
 print("\nConfusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
+print(confusion_matrix(y_test, y_pred, labels=[0, 1]))
 
 """# Task 11: Custom Review Testing
 
