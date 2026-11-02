@@ -11,11 +11,8 @@ Original file is located at
 # Task 1: Install and Import Libraries
 """
 
-!pip install -U datasets huggingface_hub
-
 import pandas as pd
 import re
-
 from datasets import load_dataset
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -128,7 +125,7 @@ print(classification_report(y_test, y_pred))
 
 # Print confusion matrix
 print("\nConfusion Matrix:")
-print(confusion_matrix(y_test, y_pred))
+print(confusion_matrix(y_test, y_pred, labels=[0, 1]))
 
 """# Task 11: Custom Review Testing
 
