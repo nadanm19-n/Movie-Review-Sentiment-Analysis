@@ -1,4 +1,4 @@
-# Movie Review Sentiment Analysis
+# Movie Review Sentiment Analysis - Main Branch Update
 
 ## Project Description
 This Python project uses Natural Language Processing (NLP) and Machine Learning to classify movie reviews as positive or negative.
